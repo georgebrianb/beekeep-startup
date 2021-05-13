@@ -1,0 +1,49 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(yellow-bg-bee.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	font-size: 3rem;
+	color: #4F4D4A;
+}
+
+hr {
+	border-color: #FF9200;
+	border-width: 3px;
+	max-width: 75px;
+}
+
+
+.buffer {
+	height: 2rem;	
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+
+.btn-primary {
+	background-color: #FF9200;
+	border-color: #FF9200;
+}
+
+.btn-primary:hover {
+	background-color: #4F4D4A;
+	border-color: #4F4D4A;
+	border-width: 5px;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
